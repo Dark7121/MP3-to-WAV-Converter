@@ -3,8 +3,8 @@ import sys
 from pydub import AudioSegment
 
 # Get the input and output folders from command line arguments
-input_folder = sys.argv[1]
-output_folder = sys.argv[2]
+input_folder = #provide the MP3 file path
+output_folder = #provide the WAV file path, where it the store the output file as WAV
 
 # Create the output folder if it doesn't exist
 if not os.path.exists(output_folder):
